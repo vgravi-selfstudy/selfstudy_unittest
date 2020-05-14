@@ -19,4 +19,12 @@ public class MyMathTest {
 		int result = myMath.sum(new int[] {3});
 		assertEquals(3, result);
 	}
+	
+	
+	@Test
+	public void sum_with10numbers() {
+		int result = myMath.sum(new int[] {3,3,3,3,3,3,3,3,3,3,3});
+		assertEquals(3, result);
+	}
+	
 }
